@@ -1,0 +1,16 @@
+body {
+    position: absolute;
+    background-color: black;
+    color: rgb(224, 255, 24);
+    font-size: 1rem;
+    line-height: .98;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    width: 400px;
+    left: 35%;
+}
+
+.text {
+    display: inline;
+}
