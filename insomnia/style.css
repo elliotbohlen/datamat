@@ -7,10 +7,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     text-align: justify;
-    width: 400px;
-    left: 35%;
+    width: 500px;
+    left: 30%;
+    height: 100vh;
 }
 
 .text {
-    display: inline;
+    display: inline-block;
 }
