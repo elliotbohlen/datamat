@@ -1,17 +1,29 @@
 body {
     position: absolute;
     background-color: black;
-    color: rgb(224, 255, 24);
+    color: #dfff0e;
     font-size: 1rem;
-    line-height: .98;
+    line-height: .97;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     text-align: justify;
-    width: 500px;
-    left: 30%;
+    width: 100vw;
+    /* left: 25%; */
     height: 100vh;
+    animation: flashText 1s infinite;
 }
 
 .text {
     display: inline-block;
+}
+
+@keyframes flashText {
+    from {
+        left: 1px;
+        top: 2px;
+    }
+    to {
+        left: 3px;
+        top: 3px;
+    }
 }

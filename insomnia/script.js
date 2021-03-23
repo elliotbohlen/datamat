@@ -8,6 +8,7 @@ setInterval(function() {
     div.className = 'text';
 
     document.body.appendChild(div);
-    div.style.transform = "skew(" + randString + "deg)";
+    div.style.transform = "skewX(" + randString + "deg)";
+    div.style.transform = "skewY(" + randString + "deg)";
     console.log(randString);
-}, 100)
+}, 50)

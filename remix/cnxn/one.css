@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+}
+
+p {
+    font-size: 12rem;
+    padding: 0px;
+}
+
+#header {
+    position: absolute;
+    top: -200px;
+    padding: 0px;
+}
+
+a,
+:visited {
+    color: blue;
+}
+
+#text {
+    position: absolute;
+    top: 5000px;
+}

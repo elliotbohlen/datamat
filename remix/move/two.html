@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two</title>
+    <link rel="stylesheet" href="./two.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <script>
+        var i = 1;
+        var append1Function = setInterval(function() {
+            var rando = Math.floor(Math.random() * 10) + 1;
+
+            var pic1 = `<div class="patternunit" style="
+			  left:${rando*40}px;
+			  top:${rando*30}px;
+			  "><p> In the Lab <br> This is so humiliating: <br> I know I’m healthy <br> When I’m night driving to meet my needs <br> And there's Bloodcomb Jellyfish DNA <br> Crispred into my DNA bioluminescence hijacking <br> The scene I’m exchanging body for a
+            witness.
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic1);
+
+            var pic2 = `<div class="patternunit" style="
+			  left:${rando*50}px;
+			  top:${rando*80}px;
+		
+			  "><p>Haha
+            <br> Made out of celery or algae or neon<br> At this point.<br> Thud the tank, send me a hyperlink
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic2);
+
+            var pic3 = `<div class="patternunit" style="
+			  right:${rando*5}px;
+			  top:${rando*6}px;
+
+			  ">  <p>
+            Blue AI generated narration of my body <br> She's in the “the ocean” now, the shower, <br> Using a Dove bar soap, generating “innocent”<br> It’s cucumber scented. My orchid and my curtain <br> Are touching, “holding hands”. Computers and people
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic3);
+
+            var pic4 = `<div class="patternunit" style="
+			  right:${rando*80}px;
+			  top:${rando*80}px;
+	
+			  "> <p> Computers and people <br> Will just invent anything. Inventing naturals things<br> Like a kiss through the screen, <br> 9088099307, if you ever thought <br> About buying a glow in the dark fish:
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic4);
+
+            var pic5 = `<div class="patternunit" style="
+			  right:${rando*50}px;
+			  top:${rando*100}px;
+			  
+			  "> <p>Don't be shy, everyone is naturally in love with me:<br> Plugging a lime into the wall To light the scene <br> Where I’m luhboratory examining <br> If phytoplankton react to <br> Me telling them they’re healthy <br> Their bodies are humiliating
+            little machines
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic5);
+            var pic6 = `<div class="patternunit" style="
+			  right:${rando*50}px;
+			  top:${rando*100}px;
+			  "> <p> It's so funny. Natural in pigtails when I’m lying<br> When I’m fat and when I’m swimming<br> Natural in Katherine’s poem <br> As a “jumbo shrimp”, “infinitely winning”<br> Don’t waste your time freezing my corpse <br> I’ll be alive the whole time.
+        </p></div>`;
+            document.getElementById("box1").insertAdjacentHTML("beforeend", pic6);
+            if (i >= 1) {
+                // defining the maximum amount of cycles
+                clearInterval(append1Function);
+            }
+            i++;
+        }, 300);
+    </script>
+</body>
+
+</html>

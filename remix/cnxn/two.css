@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    /* padding-left: 10px; */
+    background-color: crimson;
+    font-family: sans-serif
+}
+
+p {
+    font-size: 9rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a,
+:visited {
+    color: blue
+}

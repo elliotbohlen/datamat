@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'SnellRoundhand-Script';
+    src: url('../SnellRoundhand-Script.svg#SnellRoundhand-Script') format('svg'), url('../SnellRoundhand-Script.ttf') format('truetype'), url('../SnellRoundhand-Script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SnellRoundhandScript';
+    src: url('../SnellRoundhandScript.eot');
+    src: url('../SnellRoundhandScript.eot?#iefix') format('embedded-opentype'), url('../SnellRoundhandScript.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 10px;
+    font-family: "SnellRoundhand-Script";
+    color: lime;
+    font-size: 90px;
+    line-height: .8;
+    background-color: black;
+    kerning: auto;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    /* left: 11%; */
+    top: 7040px;
+    width: 200px;
+    text-align: justify;
+    justify-content: end;
+}
+
+p {
+    animation: colorChange;
+    text-transform: uppercase;
+    letter-spacing: -7px;
+    /* text-shadow: 0 0 10px lime; */
+    /* width and color */
+}
+
+#clock {
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 200;
+}

@@ -1,0 +1,10 @@
+body {}
+
+#content {
+    background-image: url(jelly.jpg);
+    background-size: 150px;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid;
+    color: pink;
+}
