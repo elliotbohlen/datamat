@@ -53,7 +53,7 @@
     
     .text {
         color: white;
-        font-size: 1.9rem;
+        font-size: 2rem;
         font-family: serif;
         border: none !important;
         box-shadow: none !important;
@@ -65,14 +65,14 @@
     }
     
     #protocol {
-        right: 0px;
-        width: 97vw;
+        left: 0px;
+        width: 98vw;
         height: 100vh;
         position: fixed;
         top: 0px;
         z-index: 2;
         background-color: black;
         color: lime;
-        font-size: 3em;
+        font-size: 3.3em;
         text-shadow: 0 0 6px lime;
     }
